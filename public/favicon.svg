@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5CA8F"/>
+      <stop offset="50%" stop-color="#C8A45D"/>
+      <stop offset="100%" stop-color="#9E7832"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F4D3F"/>
+      <stop offset="100%" stop-color="#12332A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Medallion -->
+  <rect width="128" height="128" rx="28" fill="url(#emeraldGrad)"/>
+  <rect x="5" y="5" width="118" height="118" rx="24" fill="none" stroke="url(#goldGrad)" stroke-width="2" opacity="0.85"/>
+  <circle cx="64" cy="64" r="54" fill="none" stroke="url(#goldGrad)" stroke-width="1.2" stroke-dasharray="3 3" opacity="0.6"/>
+
+  <!-- Ceremonial Mandap Arch & Kalash Motif -->
+  <!-- Auspicious Mandap Arch Top -->
+  <path d="M 34 50 C 34 30, 64 22, 64 22 C 64 22, 94 30, 94 50" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Little Pinnacle Kalash / Flame at Top -->
+  <path d="M 64 16 C 62 20, 66 20, 64 24 C 62 20, 66 20, 64 16 Z" fill="url(#goldGrad)"/>
+
+  <!-- Inner Lotus Base -->
+  <path d="M 40 92 C 52 86, 76 86, 88 92 C 80 99, 48 99, 40 92 Z" fill="url(#goldGrad)" opacity="0.9"/>
+  <path d="M 48 92 C 56 80, 72 80, 80 92 Z" fill="#12332A" opacity="0.3"/>
+
+  <!-- Stylized Royal 'S' and 'V' Monogram -->
+  <g fill="none" stroke="url(#goldGrad)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Letter S -->
+    <path d="M 58 46 C 54 42, 45 42, 45 48 C 45 57, 59 55, 59 66 C 59 74, 48 74, 43 69" stroke-width="3.5"/>
+    <!-- Letter V -->
+    <path d="M 67 44 L 77 71 L 87 44" stroke-width="3.5"/>
+  </g>
+
+  <!-- Auspicious Dots -->
+  <circle cx="64" cy="33" r="2.2" fill="url(#goldGrad)"/>
+  <circle cx="34" cy="50" r="2" fill="url(#goldGrad)"/>
+  <circle cx="94" cy="50" r="2" fill="url(#goldGrad)"/>
+  <circle cx="64" cy="104" r="2.5" fill="url(#goldGrad)"/>
+  <circle cx="54" cy="104" r="1.5" fill="url(#goldGrad)" opacity="0.7"/>
+  <circle cx="74" cy="104" r="1.5" fill="url(#goldGrad)" opacity="0.7"/>
+</svg>

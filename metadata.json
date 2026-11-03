@@ -1,0 +1,6 @@
+{
+  "name": "Sai Vedika AC Function Hall",
+  "description": "Premium modern website for Sai Vedika AC Function Hall in Tuni, Andhra Pradesh, featuring venue facilities, photo gallery, events showcase, and instant WhatsApp booking enquiry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

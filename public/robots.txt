@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sai-vedika-tuni.netlify.app/sitemap.xml
